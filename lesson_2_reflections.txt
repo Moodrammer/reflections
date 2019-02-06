@@ -1,0 +1,5 @@
+What happens when you initialize a repository? Why do you need to do it?
+
+==a hidden file (.git) is created which saves the history of the repository 
+i need to do it inorder to be able to use Git as a version control and to tell the device that it is not an ordinary directory as normal directories doesn't save the history of files
+--------------------------------------------------------------
