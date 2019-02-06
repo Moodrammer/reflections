@@ -1,0 +1,33 @@
+How could having easy access to the entire history of a file make you a more efficient programmer in the long term?
+
+i can easily restore any older version if i made a mistake and mistakes become more easy to discover in less time as you compare the last working version before you add the work which caused the error
+
+What do you think are the pros and cons of manually choosing when to create a commit, like you do in Git, vs having versions automatically saved, like Google Docs does?
+
+pros : saving only when a logical task is added, and each version is reasonable and it shows a working program at one of its stages cons
+
+cons : forgetting to commit or commiting at wrong times may cause loss in your work
+
+-------------------------------------------------------------- 
+
+Why do you think some version control systems, like Git, allow saving multiple files in one commit, while others, like Google Docs, treat each file separately?
+
+==in Git you deal with a whole project with many files and you want to compare whole project versions so you can't deal with separate files, while in google docs you can deal with simple code written in one file and it may be designed for other reasons rather than coding (fi 7eta faty fi el a5r)
+
+--------------------------------------------------------------
+How can you use the commands git log and git diff to view the history of files?
+
+==to use (git log) first we move to the directory that has the repository inside then we type the command git log and we scroll down the history until we find the required commit
+to use (git diff) we type only the first 4 or 5 letters of the commit ID int the form
+   git diff FirstID secondID
+   first ID is -(deletion) (old one) second id is +(addition) (new one)
+
+ -------------------------------------------------------------
+ How might using version control make you more confident to make changes that could break something?
+
+ == we can view previous commits without deleting recent ones ie we can view the history any time and try removing the errors without affecting our current work
+ -------------------------------------------------------------
+ Now that you have your workspace set up, what do you want to try using Git for?
+
+ ==I want to use git for my university projeccts to save the time of merging the code with my colleagues and to avoid having to wait to meet them so that we can use hardware storage devices to copy the whole project from onne PC to the other then start copying and pasting the lines to the last version of the project which is a waste of time and causes alot of errors 
+ -------------------------------------------------------------
