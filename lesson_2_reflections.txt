@@ -3,3 +3,16 @@ What happens when you initialize a repository? Why do you need to do it?
 ==a hidden file (.git) is created which saves the history of the repository 
 i need to do it inorder to be able to use Git as a version control and to tell the device that it is not an ordinary directory as normal directories doesn't save the history of files
 --------------------------------------------------------------
+How can you use the staging area to make sure you have one commit per logical change?
+
+By using :
+   git diff --> to compare between the working directory and the staging area to make sure that the change to be committed is logical 
+
+   git diff --staged --> to compare the staging area with the most recent commit also to see the change that is going to be committed before commiting so that we can recongnize if it is a logical change 
+ -------------------------------------------------------------
+ 
+How do the diagrams help you visualize the branch structure?
+
+diagrams help to show the parent commit and to easily point out unreachable commits
+(fix by git checkout -b new_branch_name)
+-------------------------------------------------------------
