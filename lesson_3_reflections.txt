@@ -3,3 +3,12 @@ When would you want to use a remote repository rather than keeping all your work
  .When sharing work with other teamates
  .when you want to be able to store your work online sothat you can clone your work or download it to any device
  -----------------------------------------------------------
+
+ commands:
+
+ -git remote --> To show existing remotes
+ -git add remote "remote name(origin)" "HTTPS link to repository" --> To add a remote to an online repository(link local to online repository)
+ -git push "remote name" "branch name to be pushed" -->
+     To push is to sync your (local directory) to (the online remote repository)
+ -git pull "remote name" "branch to be pulled" -->
+  	To pull is to sync (the online repository) to (local directory)    
