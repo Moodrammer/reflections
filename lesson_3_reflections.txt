@@ -1,1 +1,5 @@
+When would you want to use a remote repository rather than keeping all your work local?
 
+ .When sharing work with other teamates
+ .when you want to be able to store your work online sothat you can clone your work or download it to any device
+ -----------------------------------------------------------
