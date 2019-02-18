@@ -38,3 +38,5 @@ After forking github makes reference to the original owner of the repository and
  -git pull "remote name" "branch to be pulled" -->
   	To pull is to sync (the online repository) to (local directory)
  -git clone "Repository URL" --> To clone a repository on GitHub to local device
+ -git fetch "remote name" --> adds commits whose parent is the commit where local master was locally found
+ -git pull == git fetch + git merge master(local) origin/master
