@@ -7,14 +7,34 @@ When would you want to use a remote repository rather than keeping all your work
 
 .If i am working on a version of or an experimental change then another collaborator pushed his latest version to GitHub, which might contain new introduced functions it would be annoyng if my version automatically updated ti his and it might cause a mess , So manual pulling is better to control changes to the project.
 --------------------------------------------------------------
+Describe the differences between forks, clones, and branches. When would you use one instead of another?
 
- 
+.forks --> copy a repository from (GitHub servers) into (GitHub servers)[From someone's account to your account]
+After forking github makes reference to the original owner of the repository and tracks the nuber of people who forked it
 
+.clone --> Either (Github servers) --> (local computer)
+		   or (Local computer) --> (Another location on your local computer)
+  git clone "Repository Url"
+
+
+.Branch --> on the same repository at a certain commit we can make a branch to work on a seperate or experimental feature 
+
+[COMMANDS DEALING WITH BRANCHES]::
+ -git branch --> to know existing branch
+ -git branch "branch name" --> to create a branch
+ -git branch -b "name" [probably] --> to create a branch at a certain commit
+ -git branch -d "name" [probably] --> to delet branch
+ -git merge "branch1" "branch2" -->to merge two branches
+ -git merge --abort --> to cancel the merging process
+ -git checkout "branch name" --> to checkout a branch
+--------------------------------------------------------------
  commands:
 
  -git remote --> To show existing remotes
+ -git remote -v  --> For more details
  -git add remote "remote name(origin)" "HTTPS link to repository" --> To add a remote to an online repository(link local to online repository)
  -git push "remote name" "branch name to be pushed" -->
      To push is to sync your (local directory) to (the online remote repository)
  -git pull "remote name" "branch to be pulled" -->
   	To pull is to sync (the online repository) to (local directory)
+ -git clone "Repository URL" --> To clone a repository on GitHub to local device
